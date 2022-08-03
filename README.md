@@ -1,5 +1,5 @@
 # home-budgetv2
-
+ This app for your own home budget which help you manage finanse.
 ## Project setup
 ```
 npm install

@@ -22,7 +22,7 @@ export default {
 
   methods: {
     getUnits: function() {
-      axios.get('home-budgetv2/Api/connect.php')
+      axios.get('http://localhost/Api/connect.php')
       .then((response) => {
         console.log(response);
     })

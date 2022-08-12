@@ -10,7 +10,7 @@ import axios from 'axios';
 
 import HelloWorld from '@/components/HelloWorld.vue';
 
-const API_APP = 'C:/Users/Dominik/Desktop/HomeBudgetV2/home-budgetv2/connect.php';
+const API = 'http://localhost/Api/connect.php';
 
 // @ is an alias to /src
 
@@ -22,7 +22,7 @@ export default {
 
   methods: {
     getUnits: function() {
-      axios.get('http://localhost/Api/connect.php')
+      axios.get(`${API}`)
       .then((response) => {
         console.log(response);
     })
